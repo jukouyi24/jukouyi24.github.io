@@ -52,3 +52,9 @@ footer .brand-logo{width:52px;height:52px}
 
 /* Fondos suaves para conservar la marca de agua detrás de la página. */
 .steps-section{background:rgba(28,27,23,.65)}
+
+/* Desvanecido discreto al entrar y salir del área de lectura. */
+.scroll-soft{transition:opacity .4s ease}
+.scroll-soft.is-dimmed{opacity:.58}
+.showcase{padding-bottom:60px}
+@media(prefers-reduced-motion:reduce){.scroll-soft,.scroll-soft.is-dimmed{transition:none;opacity:1}}
