@@ -58,3 +58,15 @@ footer .brand-logo{width:52px;height:52px}
 .scroll-soft.is-dimmed{opacity:.58}
 .showcase{padding-bottom:60px}
 @media(prefers-reduced-motion:reduce){.scroll-soft,.scroll-soft.is-dimmed{transition:none;opacity:1}}
+
+/* Servicios adicionales y atención por tienda. */
+.service-extra{background:linear-gradient(135deg,#25211788,#16161255)}
+.service-extra h3{font-size:23px}.service-extra .card-copy{padding:30px 25px}
+.store-contacts{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:20px}
+.store-contact{border:1px solid var(--line);border-radius:8px;padding:18px 15px;background:#15151099;min-width:0}
+.store-floor{font-size:9px;letter-spacing:1.5px;color:var(--green);font-weight:700}.store-contact h3{font-size:24px;margin:10px 0}
+.visit .store-contact p{font-size:11px;line-height:1.8;margin:12px 0 16px}.store-contact p>a{display:inline-block;text-decoration:underline;text-underline-offset:3px;white-space:nowrap}
+.store-contact .button{font-size:10px;padding:12px 10px;gap:8px;justify-content:space-between}.visit{grid-template-columns:1.1fr 1fr;gap:40px}.workshop-badge{font-size:27px;white-space:nowrap}.workshop-badge small{font-size:7px}
+@media(min-width:601px) and (max-width:850px){.store-contacts{grid-template-columns:1fr}.visit{align-items:start}.workshop-photo{height:500px}}
+@media(max-width:600px){.visit{grid-template-columns:1fr;gap:30px}.store-contacts{grid-template-columns:1fr 1fr;gap:10px}.store-contact{padding:16px 12px}.store-contact h3{font-size:23px}.workshop-photo figcaption{gap:12px;font-size:20px}.workshop-badge{font-size:24px}.service-extra .card-copy{padding:24px}}
+@media(max-width:360px){.store-contacts{grid-template-columns:1fr}.workshop-photo figcaption{flex-wrap:wrap}}
