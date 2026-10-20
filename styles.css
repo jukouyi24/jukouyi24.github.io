@@ -31,3 +31,8 @@ h1 em{background:none;color:var(--green)}
 .spark-icon{display:inline-block;width:1em;height:1em;vertical-align:-.1em;flex-shrink:0}
 .brand-icon{display:inline-flex}.ticker .spark-icon{vertical-align:0}
 .photo-seal .spark-icon{width:16px;height:16px;justify-self:center;margin-top:3px}
+
+/* Logo original de Diseños Fernandez. */
+.brand{gap:12px}.brand-logo{display:block;width:64px;height:64px;object-fit:contain;flex-shrink:0;border-radius:4px}
+footer .brand-logo{width:52px;height:52px}
+@media(max-width:600px){.header .brand{gap:8px;font-size:15px;letter-spacing:-.6px}.header .brand-logo{width:42px;height:42px}footer .brand-logo{width:44px;height:44px}}
